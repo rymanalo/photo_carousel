@@ -1,18 +1,17 @@
-img {
-  position: absolute;
-  height: 500px;
-  width: 500px;
-  opacity: 0.0;
-}
-
 #container {
   position: absolute;
   height:500px;
   width: 500px;
 }
 
+img {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+}
+
 #controls {
-  position:relative;
-  top: 0;
-  right: 0;
+  position: relative;
+  text-align: center;
 }
