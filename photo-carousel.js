@@ -42,13 +42,15 @@ function stop() {clearInterval(timer);}
 function next() {
   timer = setInterval(fadeNext, 100);
   setTimeout(stop, 1100);
-  setTimeout(shiftImagesForward, 1500);
+  setTimeout(shiftImagesForward, 1101);
+  setTimeout(stop, 1102);
 }
 
 function previous() {
   timer = setInterval(fadePrevious, 100);
   setTimeout(stop, 1100);
-  setTimeout(popImagesBacwards, 1500);
+  setTimeout(popImagesBacwards, 1101);
+  setTimeout(stop, 1102);
 }
 
 fadeAll();
